@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -10,7 +10,21 @@
   #projects {
     height: fit-content;
   }
+} */
+@media screen and (min-width: 1401px) {
+  #profile {
+    height: 100vh;
+    margin-bottom: 4rem;
+  }
+  .about-containers {
+    flex-wrap: nowrap;
+  }
+  #contact,
+  #projects {
+    height: 70vh;
+  }
 }
+
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
