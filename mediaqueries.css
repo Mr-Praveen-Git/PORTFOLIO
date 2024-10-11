@@ -1,16 +1,3 @@
- /* @media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
-} */
 @media screen and (min-width: 1401px) {
   #profile {
     height: 100vh;
@@ -19,9 +6,8 @@
   .about-containers {
     flex-wrap: nowrap;
   }
-  #contact,
-  #projects {
-    height: 70vh;
+ #certificate, #projects, #contact {
+    min-height: fit-content;
   }
 }
 
